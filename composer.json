@@ -1,0 +1,19 @@
+{
+    "name": "yashlotan/Xapo",
+    "description": "Xapo API php package",
+    "version": "1.0.0",
+    "type": "library",
+    "license": "MIT",
+    "support": {
+        "email": "yashlotan7@gmail.com"
+    },
+    "autoload": {
+        "psr-4": {
+            "Yashlotan\\Xapo\\": "src/"
+        }
+    },
+    "require": {
+        "curl/curl": "^1.3",
+        "php": ">=5.3.3"
+    }
+}
